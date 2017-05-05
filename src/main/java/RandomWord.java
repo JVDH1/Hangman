@@ -14,7 +14,7 @@ public class RandomWord {
             DataInputStream dis;
 
             try {
-                is = Thread.currentThread().getContextClassLoader().getResourceAsStream("\\words.txt");
+                is = Thread.currentThread().getContextClassLoader().getResourceAsStream("words.txt");
                 bis = new BufferedInputStream(is);
                 dis = new DataInputStream(bis);
 
